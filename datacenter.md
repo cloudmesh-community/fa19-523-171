@@ -35,11 +35,11 @@ initiative.
 https://www.switch.com/sustainability/
 In 2016, Switch began construction of two solar power stations in Las Vegas, Nevada with a combined 179MW of capacity. These
 facilities have the ability to
-* 		Power all Switch data centers with 100% renewable energy
-* 		Remove the equivalent of 50,000 cars off the road
-* 		Eliminate 265,000 carbon tons of emission from the environment
+- 		Power all Switch data centers with 100% renewable energy
+- 		Remove the equivalent of 50,000 cars off the road
+- 		Eliminate 265,000 carbon tons of emission from the environment
 
-Water
+## Water
 
 Switch also applies sustainability initiatives to protecting the world’s most precious resource: water. Through industry
 partnerships, Switch helped pioneer and develop proprietary technology that eliminates chemicals from our cooling systems,
