@@ -1,6 +1,6 @@
-Datacenter: fa19-516-171
+# Datacenter: fa19-516-171
 
-E.DataCenter.2b:
+# E.DataCenter.2b:
 
 The Switch SuperNAP held the title of largest data center in the world for quite some time, boasting 3.5 million square feet.
 It is located in Las Vegas, Nevada. This can run yearly capacity of the 587914  MWatts. The data center features a calculated
@@ -15,14 +15,14 @@ Schnider Electric Data Center Carbon Footprint Calculator
 
 https://www.racksolutions.com/news/data-center-news/top-10-largest-data-centers-world/
 
-E.DataCenter.3:
+# E.DataCenter.3:
 
 I have calculated my footprint using http://carbonfootprint.c2es.org/ calculator based on where I live and what heating
 mechanism I use and what I drive.
 My footprint is 8304  LBS OF CO2.
 
 
-E.Datacenter.4:
+# E.Datacenter.4:
 
 Solar energy is a renewable free source of energy that is sustainable and totally inexhaustible, unlike fossil fuels that ar
 finite. It is also a non-polluting source of energy and it does not emit any greenhouse gases when producing electricity.
@@ -45,7 +45,7 @@ Switch also applies sustainability initiatives to protecting the world’s most 
 partnerships, Switch helped pioneer and develop proprietary technology that eliminates chemicals from our cooling systems,
 while increasing efficiency by over 400% and saving more than 155 million gallons of water in just 3 years.
 
-E.Datacenter.5:
+# E.Datacenter.5:
 
 India is one of the countries with the largest production of energy from renewable sources.Four of the top seven largest solar
 parks worldwide are in India including the second-largest solar park in the world at Kurnool, Andhra Pradesh, with a capacity
@@ -65,4 +65,4 @@ TOTAL	80,467	175,000
 https://en.wikipedia.org/wiki/Renewable_energy_in_India
 
 
-E.Datacenter.8:
+# E.Datacenter.8:
