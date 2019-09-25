@@ -1,4 +1,4 @@
-**Ingest Live Streaming Data/Replicating Database using Logs**
+# Ingest Live Streaming Data/Replicating Database using Logs
 
 fa19-516-171, Jagadeesh Kandimalla
 
