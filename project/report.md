@@ -1,6 +1,10 @@
-# Ingest Live Streaming Data/Replicating Database using Logs
+# Abstract Streaming interfaces for the NIST Big data Architecture
 
 Jagadeesh Kandimalla, fa19-516-171 :o2:
+
+:o: Original title proposal was "Ingest Live Streaming Data/Replicating Database using Logs" whcih is too limited and does not showcase applicability on multiple clouds. However, this is easy to fix by developing a "register" like specification in OpenAPI just as we did for databases in the NIST document. YOu will have to look at 2 cloud providers to derive some common features. You could even describe how to much such dat between clouds. There are APIs and services that doe this. Provide a survey.
+
+:o2: I like the idea of the queue, but you need to move forward, with an architecture diagram and code as well as potential tests to do this
 
 # Objective
 
