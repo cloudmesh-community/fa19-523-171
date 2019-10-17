@@ -1,6 +1,6 @@
 # Ingest Live Streaming Data/Replicating Database using Logs
 
-fa19-516-171, Jagadeesh Kandimalla
+Jagadeesh Kandimalla, fa19-516-171 :o2:
 
 # Objective
 
