@@ -6,6 +6,8 @@ Jagadeesh Kandimalla, fa19-516-171 :o2:
 
 :o2: I like the idea of the queue, but you need to move forward, with an architecture diagram and code as well as potential tests to do this
 
+The streaming service initial architecure is when a Object gets added to S3 ,An AWS Lambda function will get triggered and will call the Google cloud endpoint which inturn will call the APP engine where we write the data to Google cloud Storage
+
 # Objective
 
 We will be ingesting data in real-time using AWS Services and Parse the data and load it in to database in abstract format/detailed(depending on the log which we are ingesting) for future processing.
@@ -25,3 +27,5 @@ GCP Coud Storage
 # Architecture
 
 project/Project.pptx
+
+
