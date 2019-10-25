@@ -10,10 +10,8 @@ The streaming service initial architecure is when a Object gets added to S3 ,An 
 
 # Objective
 
-We will be ingesting data in real-time using AWS Services and Parse the data and load it in to database in abstract format/detailed(depending on the log which we are ingesting) for future processing.
-CloudMesh will have a API which will subscribe to any realtime data and publish in the database by parsing.The Streaming may happen from On-premises to Cloud or in Cloud to Cloud , 
-The steaming data can be anything if we choose photos as an example whenever the user uploads a photo in S3, 
-and S3 events will trigger a message to send the photo to Queue the Queue will transfer it to the Database .
+The streaming service initial architecure is when a Object gets added to S3 and S3 event will trigger AWS Lambda function and the lambda will call the Google cloud endpoint which inturn will call the APP engine where we write the data to Google cloud Storage.This way the streaming is automated ,anytime a object gets detected in S3 it is loaded to Google Storage and all the components are loosely coupled so that anytime we can replace the destination like Google Big query by just switching the app name in Google App Engine.
+
 
 # Technologies
 
