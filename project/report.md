@@ -15,8 +15,13 @@ and S3 events will trigger a message to send the photo to Queue the Queue will t
 
 # Technologies
 
-AWS Kinesis,
+AWS S3
 AWS Lambda,
 OpenAPI 3.0.2,
-REST,
-Aurora/DynamoDB
+GCP Cloudendpoint
+GCP App Engine
+GCP Coud Storage
+
+# Architecture
+
+project/Project.pptx
