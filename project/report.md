@@ -25,6 +25,6 @@ GCP Coud Storage
 
 # Architecture
 
-![architecture](images/architecture-171.png)
+![architecture](images/architecuture-171.png)
 
 
