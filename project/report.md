@@ -8,8 +8,6 @@ Jagadeesh Kandimalla, fa19-516-171 :o2:
 
 The streaming service initial architecure is when a Object gets added to S3 ,An AWS Lambda function will get triggered and will call the Google cloud endpoint which inturn will call the APP engine where we write the data to Google cloud Storage
 
-![architecture](images/architecture-171.png)
-
 
 # Objective
 
@@ -27,6 +25,6 @@ GCP Coud Storage
 
 # Architecture
 
-project/Project.pptx
+![architecture](images/architecture-171.png)
 
 
