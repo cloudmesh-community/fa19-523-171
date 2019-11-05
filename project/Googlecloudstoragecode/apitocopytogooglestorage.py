@@ -26,8 +26,7 @@ def process():
     blob = bucket.blob(message)
 
     blob.upload_from_string(
-        message,
-        content_type='text'
+        message
     )
 
     return jsonify({'In app code for endpoint, received message': message})
