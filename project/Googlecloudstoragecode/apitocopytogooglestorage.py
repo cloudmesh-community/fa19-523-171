@@ -1,4 +1,3 @@
-import base64
 import json
 import logging
 
@@ -46,3 +45,4 @@ def unexpected_error(e):
 if __name__ == '__main__':
 
     app.run(host='127.0.0.1', port=8080, debug=True)
+
