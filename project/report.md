@@ -33,7 +33,7 @@ GCP Coud Storage
 3.) Debugged the Cloudmesh-Storage awss3.provdier.py and StorageABC.py and got the put and list commands working for AWS S3- Done .    
 4.) Uploded the files to S3 files using Cloudmesh commands(PUT and LIST) -- Done .     
 5.) Created the GCP account and set up gsutil on the mac - Done .  
-6.) Created the project and bucket and created the google application credentials - Done . 
+6.) Created the project and bucket and created the google application credentials - Done   
 7.) Download the Google app credentials and set the authentication in the environment variables - Done .   
 8.) Developed a flask application to read the data and load the data to google cloud storage -Done       
 9.) Debugged the flask application in the local using POSTMAN - Done .   
