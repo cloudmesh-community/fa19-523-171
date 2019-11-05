@@ -27,4 +27,6 @@ GCP Coud Storage
 
 ![architecture](images/architecuture-171.png)
 
+# Progress
+1.) Create a AWS account
 
