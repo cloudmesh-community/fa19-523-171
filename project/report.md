@@ -28,7 +28,7 @@ GCP Coud Storage
 ![architecture](images/architecuture-171.png)
 
 # Progress
-1.) Created a AWS account/S3 - Done.  
+1.) Created a AWS account/S3 bucket - Done.  
 2.) Updated the .cloudmesh.yaml file with awss3 key pair - Done   .  
 3.) Debugged the Cloudmesh-Storage awss3.provdier.py and StorageABC.py and got the put and list commands working for AWS S3- Done .    
 4.) Uploded the files to S3 files using Cloudmesh commands(PUT and LIST) -- Done .     
