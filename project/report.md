@@ -37,7 +37,7 @@ GCP Coud Storage
 7.) Download the Google app credentials and set the authentication in the environment variables - Done .   
 8.) Developed a flask application to read the data and load the data to google cloud storage -Done       
 9.) Debugged the flask application in the local using POSTMAN - Done .   
-10.) Extend the flask application to read from the URL and get the data downloaded from URL and load in to Google cloud storage- In Progress    . 
+10.) Extend the flask application to read from the URL and get the data downloaded from URL and load in to Google cloud storage - In Progress<br/>
 11.) Development of AWS Lambda application - Not Started . 
 
 
