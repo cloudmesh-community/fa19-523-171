@@ -28,15 +28,15 @@ GCP Coud Storage
 ![architecture](images/architecuture-171.png)
 
 # Progress
-1.) Created a AWS account/S3 - Done.
-2.) Updated the .cloudmesh.yaml file with awss3 key pair.
-3.) Debugged the Cloudmesh-Storage awss3.provdier.py and StorageABC.py and got the put and list commands working for AWS S3- Done   
-4.) Uploded the files to S3 files using Cloudmesh commands(PUT and LIST) -- Done    
+1.) Created a AWS account/S3 - Done.  
+2.) Updated the .cloudmesh.yaml file with awss3 key pair.  
+3.) Debugged the Cloudmesh-Storage awss3.provdier.py and StorageABC.py and got the put and list commands working for AWS S3- Done .    
+4.) Uploded the files to S3 files using Cloudmesh commands(PUT and LIST) -- Done .     
 5.) Created the GCP account and set up gsutil on the mac - Done . 
 6.) Created the project and bucket and created the google application credentials - Done . 
-7.) Download the Google app credentials and set the authentication in the environment variables - Done  
-8.) Developed a flask application to read the data and load the data to google cloud storage -Done  
-9.) Debugged the flask application in the local using POSTMAN - Done  
+7.) Download the Google app credentials and set the authentication in the environment variables - Done .   
+8.) Developed a flask application to read the data and load the data to google cloud storage -Done       
+9.) Debugged the flask application in the local using POSTMAN - Done .   
 10.) Extend the flask application to read from the URL and get the data downloaded from URL and load in to Google cloud storage- In Progress . 
 11.) Development of AWS Lambda application - Not Started . 
 
