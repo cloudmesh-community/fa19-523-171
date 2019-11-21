@@ -1,0 +1,6 @@
+bump2version
+wheel
+twine
+invoke
+pytest
+pytest-cov
