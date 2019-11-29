@@ -1,10 +1,6 @@
-# Abstract Streaming interfaces for the NIST Big data Architecture
+# Abstract Streaming interfaces for the NIST Big data Architecture/Now Changed to Cloudmesh Storage execution of AwsS3 to Local and Local to AwsS3.
 
-Jagadeesh Kandimalla, fa19-516-171 :o2:
-
-:o2: Original title proposal was "Ingest Live Streaming Data/Replicating Database using Logs" whcih is too limited and does not showcase applicability on multiple clouds. However, this is easy to fix by developing a "register" like specification in OpenAPI just as we did for databases in the NIST document. YOu will have to look at 2 cloud providers to derive some common features. You could even describe how to much such dat between clouds. There are APIs and services that doe this. Provide a survey.
-
-:o2: I like the idea of the queue, but you need to move forward, with an architecture diagram and code as well as potential tests to do this
+Jagadeesh Kandimalla, fa19-516-171 
 
 The streaming service initial architecure is when a Object gets added to S3 ,An AWS Lambda function will get triggered and will call the Google cloud endpoint which inturn will call the APP engine where we write the data to Google cloud Storage
 
@@ -39,5 +35,13 @@ GCP Coud Storage
 9.) Debugged the flask application in the local using POSTMAN - Done .   
 10.) Extend the flask application to read from the URL and get the data downloaded from URL and load in to Google cloud storage - In Progress.<br/>
 11.) Development of AWS Lambda application - Not Started . 
+
+# Project Scope changed from streaming to AwsS3 to Local and Local to AwsS3
+
+Professor wants to fix the AwsS3 Provider and add some new functionality and test and benchmark the new chages.
+Now AwsS3 provider has been fixed and and the new functionality(checking bucket exists ,if not create code) has been implemented in the provider.
+Pytests have been updated to print out benchamarks and the code has been tested using Pytests and CMD commands.
+All the code has been checked to Cloudmesh-Storage transfer bucket and has been merged with master.
+
 
 
