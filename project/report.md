@@ -42,6 +42,11 @@ Professor wants to fix the AwsS3 Provider and add some new functionality and tes
 Now AwsS3 provider has been fixed and and the new functionality(checking bucket exists ,if not create code) has been implemented in the provider.
 Pytests have been updated to print out benchamarks and the code has been tested using Pytests and CMD commands.
 All the code has been checked to Cloudmesh-Storage transfer bucket and has been merged with master.
+Pytest have been changes again to remove the hardcording for storage and process them as variables.
+
+The documentation of cloud storage has been updated and ordered properly and checked into cloudmesh-manual storage.md file
+
+https://github.com/cloudmesh/cloudmesh-manual/blob/master/docs-source/source/storage/storage.md
 
 
 
