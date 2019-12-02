@@ -48,7 +48,7 @@ The documentation of cloud storage has been updated and ordered properly and che
 
 https://github.com/cloudmesh/cloudmesh-manual/blob/master/docs-source/source/storage/storage.md
 
-# Pytest Benchmark Tests
+# Pytest Benchmark Results
 
 [Pytest test_storage_py benchmark results](../project/awss3storagebenchmarks.txt)
 
