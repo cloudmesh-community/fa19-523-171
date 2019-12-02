@@ -50,6 +50,6 @@ https://github.com/cloudmesh/cloudmesh-manual/blob/master/docs-source/source/sto
 
 # Pytest Benchmark Tests
 
-[I'm a relative reference to a repository file](../project/awss3storagebenchmarks.txt)
+[Pytest test_storage_py benchmark results](../project/awss3storagebenchmarks.txt)
 
 
