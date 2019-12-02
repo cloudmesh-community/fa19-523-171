@@ -48,6 +48,15 @@ The documentation of cloud storage has been updated and ordered properly and che
 
 https://github.com/cloudmesh/cloudmesh-manual/blob/master/docs-source/source/storage/storage.md
 
+The code is available in 
+
+https://github.com/cloudmesh/cloudmesh-storage/tree/master/cloudmesh/storage
+
+and there is also a working directory for this code
+
+https://github.com/cloudmesh/cloudmesh-storage/tree/transfer/cloudmesh/storage/provider
+
+
 # Pytest Benchmark Results
 
 [Pytest test_storage_py benchmark results](../project/awss3storagebenchmarks.txt)
