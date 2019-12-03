@@ -78,6 +78,9 @@ https://github.com/cloudmesh/cloudmesh-storage/tree/transfer/cloudmesh/storage/p
 
 [Pytest put and get benchmarks for 1.5GB file](../project/cloud-awss3-fa19-171.txt)
 
+[Pytest put and get benchmarks for 750MB file](../project/cloud-awss3-fa19-171-750MB.txt)
+
+
 
 
 
