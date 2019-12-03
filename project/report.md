@@ -16,6 +16,9 @@ The manual page is at
 * <https://cloudmesh.github.io/cloudmesh-manual/manual/storage/storage.html>
 
 
+The code is at 
+
+* you put to master as transfer does not count, e.g. at end everything nedds to be in master
 
 # Objective
 
