@@ -61,4 +61,9 @@ https://github.com/cloudmesh/cloudmesh-storage/tree/transfer/cloudmesh/storage/p
 
 [Pytest test_storage_py benchmark results](../project/awss3storagebenchmarks.txt)
 
+[Pytest put and get benchmarks for 1.5GB file](../project/cloud-awss3-fa19-171.txt)
+
+
+
+
 
