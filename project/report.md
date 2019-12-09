@@ -9,7 +9,9 @@ The documentatyion of this project is at
 
 * <https://cloudmesh.github.io/cloudmesh-manual/storage/storage.html>
 
-The API documentation is at this time not yet linked ;-) you will complete
+The API documentation of this project is at
+
+* <https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.storage.provider.awss3.html>
 
 The manual page is at 
 
