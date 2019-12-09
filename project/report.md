@@ -5,7 +5,7 @@ Jagadeesh Kandimalla, fa19-516-171
 The streaming service initial architecure is when a Object gets added to S3 ,An AWS Lambda function will get triggered and will call the Google cloud endpoint which inturn will call the APP engine where we write the data to Google cloud Storage
 
 
-The documentatyion of this project is at 
+The documentation of this project is at 
 
 * <https://cloudmesh.github.io/cloudmesh-manual/storage/storage.html>
 
