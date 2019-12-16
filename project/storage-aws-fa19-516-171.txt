@@ -1,0 +1,184 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.7.4, pytest-5.2.2, py-1.8.0, pluggy-0.13.0 -- /Users/jagadeeshk/ENV3/bin/python3
+cachedir: .pytest_cache
+rootdir: /Users/jagadeeshk/cm/cloudmesh-storage, inifile: pytest.ini
+collecting ... [34m
+# ----------------------------------------------------------------------
+# variables.dict()
+# ----------------------------------------------------------------------
+# 26:<module> ./tests/test_storage_size.py
+# ----------------------------------------------------------------------
+# {'cloud': 'AWS',
+#  'cluster': 'clustera',
+#  'debug': 'True',
+#  'experiment': 'base',
+#  'group': 'cloudmesh',
+#  'key': 'jkandima',
+#  'storag': 'awss3',
+#  'storage': 'aws',
+#  'timer': 'False',
+#  'trace': 'True',
+#  'verbose': '10',
+#  'vm': 'Jagadeesh-vm-3'}
+# ----------------------------------------------------------------------
+[0m
+Test run for aws
+provider: <cloudmesh.storage.Provider.Provider object at 0x10f2b3a90> awss3
+collected 4 items
+
+tests/test_storage_size.py::TestStorage::test_create_local_source 
+[35m
+# ######################################################################
+# test_create_local_source /tests/test_storage_size.py 62
+# ######################################################################
+[0m
+PASSED
+tests/test_storage_size.py::TestStorage::test_put 
+[35m
+# ######################################################################
+# test_put /tests/test_storage_size.py 70
+# ######################################################################
+[0m
+{'action': 'put',
+ 'destination': '/',
+ 'recursive': False,
+ 'source': '~/.cloudmesh/storage/temp/'}
+{'action': 'put',
+ 'destination': '/',
+ 'message': 'Source uploaded',
+ 'objlist': [{'contentLength': '536870912',
+              'fileName': '512.txt',
+              'lastModificationDate': 'Mon, 16 Dec 2019 07:16:10 GMT'},
+             {'contentLength': '6148',
+              'fileName': '.DS_Store',
+              'lastModificationDate': 'Mon, 16 Dec 2019 07:18:28 GMT'},
+             {'contentLength': '1073741824',
+              'fileName': '1024.txt',
+              'lastModificationDate': 'Mon, 16 Dec 2019 07:18:29 GMT'}],
+ 'recursive': False,
+ 'source': '~/.cloudmesh/storage/temp/'}
+
+[31mERROR: uploading document
+{'fileName': '512.txt', 'lastModificationDate': 'Mon, 16 Dec 2019 07:16:10 GMT', 'contentLength': '536870912', 'cm': {'kind': 'storage', 'cloud': 'aws', 'name': '512.txt', 'collection': 'aws-storage'}}
+-------
+
+[0m
+[34m
+# ----------------------------------------------------------------------
+# e
+# ----------------------------------------------------------------------
+# 462:update /Users/jagadeeshk/cm/cloudmesh-cloud/cloudmesh/mongo/CmDatabase.py
+# ----------------------------------------------------------------------
+# OperationFailure('Authentication failed.')
+# ----------------------------------------------------------------------
+[0m
+
+[31mERROR: uploading document
+{'fileName': '.DS_Store', 'lastModificationDate': 'Mon, 16 Dec 2019 07:18:28 GMT', 'contentLength': '6148', 'cm': {'kind': 'storage', 'cloud': 'aws', 'name': '.DS_Store', 'collection': 'aws-storage'}}
+-------
+
+[0m
+[34m
+# ----------------------------------------------------------------------
+# e
+# ----------------------------------------------------------------------
+# 462:update /Users/jagadeeshk/cm/cloudmesh-cloud/cloudmesh/mongo/CmDatabase.py
+# ----------------------------------------------------------------------
+# OperationFailure('Authentication failed.')
+# ----------------------------------------------------------------------
+[0m
+
+[31mERROR: uploading document
+{'fileName': '1024.txt', 'lastModificationDate': 'Mon, 16 Dec 2019 07:18:29 GMT', 'contentLength': '1073741824', 'cm': {'kind': 'storage', 'cloud': 'aws', 'name': '1024.txt', 'collection': 'aws-storage'}}
+-------
+
+[0m
+[34m
+# ----------------------------------------------------------------------
+# e
+# ----------------------------------------------------------------------
+# 462:update /Users/jagadeeshk/cm/cloudmesh-cloud/cloudmesh/mongo/CmDatabase.py
+# ----------------------------------------------------------------------
+# OperationFailure('Authentication failed.')
+# ----------------------------------------------------------------------
+[0m
+[{'cm': {'cloud': 'aws',
+         'collection': 'aws-storage',
+         'kind': 'storage',
+         'name': '512.txt'},
+  'contentLength': '536870912',
+  'fileName': '512.txt',
+  'lastModificationDate': 'Mon, 16 Dec 2019 07:16:10 GMT'},
+ {'cm': {'cloud': 'aws',
+         'collection': 'aws-storage',
+         'kind': 'storage',
+         'name': '.DS_Store'},
+  'contentLength': '6148',
+  'fileName': '.DS_Store',
+  'lastModificationDate': 'Mon, 16 Dec 2019 07:18:28 GMT'},
+ {'cm': {'cloud': 'aws',
+         'collection': 'aws-storage',
+         'kind': 'storage',
+         'name': '1024.txt'},
+  'contentLength': '1073741824',
+  'fileName': '1024.txt',
+  'lastModificationDate': 'Mon, 16 Dec 2019 07:18:29 GMT'}]
+PASSED
+tests/test_storage_size.py::TestStorage::test_get 
+[35m
+# ######################################################################
+# test_get /tests/test_storage_size.py 92
+# ######################################################################
+[0m
+{'action': 'get',
+ 'destination': '~/.cloudmesh/storage/temp/',
+ 'message': 'Source downloaded',
+ 'objlist': [{'contentLength': '1073741824',
+              'fileName': '1024.txt',
+              'lastModificationDate': 'Mon, 16 Dec 2019 07:18:29 GMT'}],
+ 'recursive': False,
+ 'source': '/1024.txt'}
+
+[31mERROR: uploading document
+{'fileName': '1024.txt', 'lastModificationDate': 'Mon, 16 Dec 2019 07:18:29 GMT', 'contentLength': '1073741824', 'cm': {'kind': 'storage', 'cloud': 'aws', 'name': '1024.txt', 'collection': 'aws-storage'}}
+-------
+
+[0m
+[34m
+# ----------------------------------------------------------------------
+# e
+# ----------------------------------------------------------------------
+# 462:update /Users/jagadeeshk/cm/cloudmesh-cloud/cloudmesh/mongo/CmDatabase.py
+# ----------------------------------------------------------------------
+# OperationFailure('Authentication failed.')
+# ----------------------------------------------------------------------
+[0m
+[{'cm': {'cloud': 'aws',
+         'collection': 'aws-storage',
+         'kind': 'storage',
+         'name': '1024.txt'},
+  'contentLength': '1073741824',
+  'fileName': '1024.txt',
+  'lastModificationDate': 'Mon, 16 Dec 2019 07:18:29 GMT'}]
+PASSED
+tests/test_storage_size.py::TestStorage::test_benchmark 
++----------------------+---------+---------------------+-----+-----------------------------------+------------+--------+-------------+-------------+
+| timer                | time    | start               | tag | node                              | user       | system | mac_version | win_version |
++----------------------+---------+---------------------+-----+-----------------------------------+------------+--------+-------------+-------------+
+| create source 512    | 14.28   | 2019-12-16 07:15:26 | aws | ('jagadeeshs-MacBook-Pro.local',) | jagadeeshk | Darwin | 10.14.6     |             |
+| create source 1024   | 27.922  | 2019-12-16 07:15:40 | aws | ('jagadeeshs-MacBook-Pro.local',) | jagadeeshk | Darwin | 10.14.6     |             |
+| put                  | 408.295 | 2019-12-16 07:16:08 | aws | ('jagadeeshs-MacBook-Pro.local',) | jagadeeshk | Darwin | 10.14.6     |             |
+| get                  | 259.041 | 2019-12-16 07:22:56 | aws | ('jagadeeshs-MacBook-Pro.local',) | jagadeeshk | Darwin | 10.14.6     |             |
+| benchmark_start_stop | 0.0     | 2019-12-16 07:27:15 | aws | ('jagadeeshs-MacBook-Pro.local',) | jagadeeshk | Darwin | 10.14.6     |             |
++----------------------+---------+---------------------+-----+-----------------------------------+------------+--------+-------------+-------------+
+
+csv,timer,time,starttag,node,user,system,mac_version,win_version
+#csv,create source 512,14.28,None,('jagadeeshs-MacBook-Pro.local',),jagadeeshk,Darwin,10.14.6,
+#csv,create source 1024,27.922,None,('jagadeeshs-MacBook-Pro.local',),jagadeeshk,Darwin,10.14.6,
+#csv,put,408.295,None,('jagadeeshs-MacBook-Pro.local',),jagadeeshk,Darwin,10.14.6,
+#csv,get,259.041,None,('jagadeeshs-MacBook-Pro.local',),jagadeeshk,Darwin,10.14.6,
+#csv,benchmark_start_stop,0.0,None,('jagadeeshs-MacBook-Pro.local',),jagadeeshk,Darwin,10.14.6,
+
+PASSED
+
+======================== 4 passed in 711.44s (0:11:51) =========================
