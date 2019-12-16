@@ -84,6 +84,8 @@ and there is also a working directory for this code
 
 [Pytest put and get benchmarks for 750MB file](../project/cloud-awss3-fa19-171-750MB.txt)
 
+[Benchmarks file using newly written test_storage_size.py](../project/storage-aws-fa19-516-171.txt)
+
 
 
 
