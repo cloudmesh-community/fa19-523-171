@@ -24,12 +24,12 @@ The code is at
 
 
 
-# Objective
+## Objective
 
 The streaming service initial architecure is when a Object gets added to S3 and S3 event will trigger AWS Lambda function and the lambda will call the Google cloud endpoint which inturn will call the APP engine where we write the data to Google cloud Storage.This way the streaming is automated ,anytime a object gets detected in S3 it is loaded to Google Storage and all the components are loosely coupled so that anytime we can replace the destination like Google Big query by just switching the app name in Google App Engine.
 
 
-# Technologies
+## Technologies
 
 AWS S3,
 AWS Lambda,
@@ -38,11 +38,12 @@ GCP Cloudendpoint,
 GCP App Engine,
 GCP Coud Storage.
 
-# Architecture
+## Architecture
 
 ![architecture](images/architecuture-171.png)
 
-# Progress
+## Progress
+
 1. Created a AWS account/S3 bucket - Done.
 2. Updated the .cloudmesh.yaml file with awss3 key pair - Done .
 3. Debugged the Cloudmesh-Storage awss3.provdier.py and StorageABC.py and got the put and list commands working for AWS S3- Done .
@@ -76,7 +77,7 @@ and there is also a working directory for this code
 * <https://github.com/cloudmesh/cloudmesh-storage/tree/transfer/cloudmesh/storage/provider>
 
 
-# Pytest Benchmark Results
+## Pytest Benchmark Results
 
 [Pytest test_storage_py benchmark results](../project/awss3storagebenchmarks.txt)
 
