@@ -66,7 +66,11 @@ they must be included in github issues.
    - In Progress.
 1. Development of AWS Lambda application - Not Started . 
 
-# Project Scope changed from streaming to AwsS3 to Local and Local to AwsS3
+## Project Scope changed from streaming to AwsS3 to Local and Local to AwsS3
+
+:o2: for the report its unimportant if you changed your scope to simplify the 
+project, instead describe what the project is. and do not use the word project 
+;-)
 
 :o2: that is a real bad first sentence .... this is an experinec report which 
 we do not need, we need a description of what awss3 sorage provider does
