@@ -1,6 +1,8 @@
-# Abstract Streaming interfaces for the NIST Big data Architecture/Now Changed to Cloudmesh Storage execution of AwsS3 to Local and Local to AwsS3.
+# Cloudmesh Storage Provider for AwsS3
 
 Jagadeesh Kandimalla, fa19-516-171 
+
+:o2: hyperlink to hid dire missing see other students
 
 The streaming service initial architecure is when a Object gets added to
 S3. An AWS Lambda function will get triggered and will call the Google
@@ -25,6 +27,9 @@ switching the app name in Google App Engine.
 
 ## Technologies
 
+:o2: explanations to these technologies is missing and why they are 
+used in this project or are related to this project
+
 AWS S3,
 AWS Lambda,
 OpenAPI 3.0.2,
@@ -37,6 +42,10 @@ GCP Coud Storage.
 ![architecture](images/architecuture-171.png)
 
 ## Progress
+
+:o2: we no longer need a progress section, but isntead seatcion 
+that summarize featurs and what you can do, if things are missing
+they must be included in github issues.
 
 1. Created a AWS account/S3 bucket - Done.
 1. Updated the .cloudmesh.yaml file with awss3 key pair - Done .
@@ -59,6 +68,10 @@ GCP Coud Storage.
 
 # Project Scope changed from streaming to AwsS3 to Local and Local to AwsS3
 
+:o2: that is a real bad first sentence .... this is an experinec report which 
+we do not need, we need a description of what awss3 sorage provider does
+
+
 Professor wants to fix the AwsS3 Provider and add some new functionality
 and test and benchmark the new chages. Now AwsS3 provider has been fixed
 and and the new functionality(checking bucket exists, if not create
@@ -80,6 +93,8 @@ The code is available in
 and there is also a working directory for this code
 
 * <https://github.com/cloudmesh/cloudmesh-storage/tree/transfer/cloudmesh/storage/provider>
+
+:o2: has account cereation and registering in the yaml file been discussed and tested/implemented. lots was done by a previous student
 
 ## Pytest Benchmark Results
 
