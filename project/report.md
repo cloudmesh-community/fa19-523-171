@@ -22,14 +22,9 @@ The code should always be referred on the cloudmesh-storage module in the master
 
 ## Objective
 
-The streaming service initial architecure is when a Object gets added to
-S3 and S3 event will trigger AWS Lambda function and the lambda will
-call the Google cloud endpoint which inturn will call the APP engine
-where we write the data to Google cloud Storage.This way the streaming
-is automated, anytime a object gets detected in S3 it is loaded to
-Google Storage and all the components are loosely coupled so that
-anytime we can replace the destination like Google Big query by just
-switching the app name in Google App Engine.
+The Objective was to completely fix the AWSS3 provider and create new functions wherever
+needed(like Bucket exists and Bucket Create) and fix/create Pytests for storage and file sizes.
+Size Pytests are used for benchmarking the functions with different size input files.
 
 ## Technologies
 
@@ -44,40 +39,114 @@ Programmatic access to proprietary software application or web service)
 
 ![architecture](images/architecuture-171.png)
 
-## Progress
 
-:o2: we no longer need a progress section, but isntead seatcion 
-that summarize featurs and what you can do, if things are missing
-they must be included in github issues.
+## AWSS3 to Local and Local to AWSS3  Storage Provider
 
-1. Created a AWS account/S3 bucket - Done.
-1. Updated the .cloudmesh.yaml file with awss3 key pair - Done .
-1. Debugged the Cloudmesh-Storage awss3.provdier.py and StorageABC.py 
-   and got the put and list commands working for AWS S3- Done .
-1. Uploded the files to S3 files using Cloudmesh commands(PUT and LIST) 
-   -- Done . 
-1. Created the GCP account and set up gsutil on the mac - Done .
-1. Created the project and bucket and created the google application 
-   credentials - Done 
-1. Download the Google app credentials and set the authentication in 
-   the environment variables - Done . 
-1. Developed a flask application to read the data and load the data to 
-   google cloud storage -Done 
-1. Debugged the flask application in the local using POSTMAN - Done . 
-1. Extend the flask application to read from the URL and get 
-   the data downloaded from URL and load in to Google cloud storage 
-   - In Progress.
-1. Development of AWS Lambda application - Not Started . 
+AWSS3 Storage provider has implemented with the below functions.
 
-## Project Scope changed from streaming to AwsS3 to Local and Local to AwsS3
+Here is the Usage.
 
-:o2: for the report its unimportant if you changed your scope to simplify the 
-project, instead describe what the project is. and do not use the word project 
-;-)
+storage
+=======
 
-:o2: that is a real bad first sentence .... this is an experinec report which 
-we do not need, we need a description of what awss3 sorage provider does
+.. parsed-literal::
 
+   Usage:
+     storage [--storage=SERVICE] create dir DIRECTORY
+     storage [--storage=SERVICE] get SOURCE DESTINATION [--recursive]
+     storage [--storage=SERVICE] put SOURCE DESTINATION [--recursive]
+     storage [--storage=SERVICE] list [SOURCE] [--recursive] [--output=OUTPUT]
+     storage [--storage=SERVICE] delete SOURCE
+     storage [--storage=SERVICE] search  DIRECTORY FILENAME [--recursive] [--output=OUTPUT]
+     storage [--storage=SERVICE] sync SOURCE DESTINATION [--name=NAME] [--async]
+     storage [--storage=SERVICE] sync status [--name=NAME]
+     storage config list [--output=OUTPUT]
+     storage copy SOURCE DESTINATION [--recursive]
+
+
+   This command does some useful things.
+
+   Arguments:
+     SOURCE        SOURCE can be a directory or file
+     DESTINATION   DESTINATION can be a directory or file
+     DIRECTORY     DIRECTORY refers to a folder on the cloud service
+
+
+   Options:
+     --storage=SERVICE  specify the cloud service name like aws or
+                        azure or box or google
+
+   Description:
+     commands used to upload, download, list files on different
+     cloud storage services.
+
+     storage put [options..]
+       Uploads the file specified in the filename to specified
+       cloud from the SOURCEDIR.
+
+     storage get [options..]
+       Downloads the file specified in the filename from the
+       specified cloud to the DESTDIR.
+
+     storage delete [options..]
+        Deletes the file specified in the filename from the
+        specified cloud.
+
+     storage list [options..]
+       lists all the files from the container name specified on
+       the specified cloud.
+
+     storage create dir [options..]
+       creates a folder with the directory name specified on the
+       specified cloud.
+
+     storage search [options..]
+       searches for the source in all the folders on the specified
+       cloud.
+
+     sync SOURCE DESTINATION
+       puts the content of source to the destination.
+        If --recursive is specified this is done recursively from
+           the source
+        If --async is specified, this is done asynchronously
+        If a name is specified, the process can also be monitored
+           with the status command by name.
+        If the name is not specified all date is monitored.
+
+     sync status
+       The status for the asynchronous sync can be seen with this
+       command
+
+     config list
+       Lists the configures storage services in the yaml file
+
+     storage copy SOURCE DESTINATION
+       Copies files from source storage to destination storage.
+       The syntax of SOURCE and DESTINATION is:
+       SOURCE - awss3:source.txt
+       DESTINATION - azure:target.txt
+
+   Example:
+      set storage=azureblob
+      storage put SOURCE DESTINATION --recursive
+
+      is the same as
+      storage --storage=azureblob put SOURCE DESTINATION --recursive
+
+      storage copy azure:source.txt oracle:target.txt
+
+
+Here is the overview of functions.
+
+1.) Create dir
+
+2.)
+
+
+
+
+
+*<https://github.com/cloudmesh/cloudmesh-manual/blob/master/docs-source/source/manual/storage.rst>
 
 Professor wants to fix the AwsS3 Provider and add some new functionality
 and test and benchmark the new chages. Now AwsS3 provider has been fixed
