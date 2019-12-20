@@ -101,39 +101,18 @@ Here is the Usage.
        searches for the source in all the folders on the specified
        cloud.
 
-     sync SOURCE DESTINATION
-       puts the content of source to the destination.
-        If --recursive is specified this is done recursively from
-           the source
-        If --async is specified, this is done asynchronously
-        If a name is specified, the process can also be monitored
-           with the status command by name.
-        If the name is not specified all date is monitored.
+    
+There are some additional functions available for other Storage Providers
+ which can be found in the below link.
 
 
 *<https://github.com/cloudmesh/cloudmesh-manual/blob/master/docs-source/source/manual/storage.rst>
 
-Professor wants to fix the AwsS3 Provider and add some new functionality
-and test and benchmark the new chages. Now AwsS3 provider has been fixed
-and and the new functionality(checking bucket exists, if not create
-code) has been implemented in the provider. Pytests have been updated to
-print out benchamarks and the code has been tested using Pytests and CMD
-commands. All the code has been checked to Cloudmesh-Storage transfer
-bucket and has been merged with master. Pytest have been changes again
-to remove the hardcording for storage and process them as variables.
-
-The documentation of cloud storage has been updated and ordered properly
-and checked into cloudmesh-manual storage.md file
-
-* <https://github.com/cloudmesh/cloudmesh-manual/blob/master/docs-source/source/storage/storage.md>
 
 The code is available in 
 
 * <https://github.com/cloudmesh/cloudmesh-storage/tree/master/cloudmesh/storage>
 
-and there is also a working directory for this code
-
-* <https://github.com/cloudmesh/cloudmesh-storage/tree/transfer/cloudmesh/storage/provider>
 
 :o2: has account cereation and registering in the yaml file been discussed and tested/implemented. lots was done by a previous student
 
