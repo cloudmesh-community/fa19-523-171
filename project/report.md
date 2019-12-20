@@ -2,7 +2,7 @@
 
 Jagadeesh Kandimalla, fa19-516-171 
 
-:o2: hyperlink to hid dire missing see other students
+<https://github.com/cloudmesh-community/fa19-516-171>
 
 The streaming service initial architecure is when a Object gets added to
 S3. An AWS Lambda function will get triggered and will call the Google
