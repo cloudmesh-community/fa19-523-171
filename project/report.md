@@ -123,7 +123,6 @@ The complete documentation and YAML file update we should do is in
 
 
 
-:o2: has account cereation and registering in the yaml file been discussed and tested/implemented. lots was done by a previous student
 
 ## Pytest Benchmark Results
 
