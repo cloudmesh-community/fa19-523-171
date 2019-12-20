@@ -6,7 +6,9 @@ Jagadeesh Kandimalla, fa19-516-171
 
 [Contributors](https://github.com/cloudmesh-community/fa19-516-171/graphs/contributors)
 
-The AWSS3 Storage Provider interacts with Cloudmesh Shell and The storage functions of the provider are available through cloudmesh command line. The documentation related the the Storage provider can be been in the below documentation link.
+The AWSS3 Storage Provider interacts with Cloudmesh Shell and The Storage functions
+of the provider are available through Cloudmesh command line. The documentation
+related the the Storage provider can be been in the below documentation link.
 
 * Documentation: <https://cloudmesh.github.io/cloudmesh-manual/storage/storage.html>
 
@@ -31,15 +33,12 @@ switching the app name in Google App Engine.
 
 ## Technologies
 
-:o2: explanations to these technologies is missing and why they are 
-used in this project or are related to this project
 
-AWS S3,
-AWS Lambda,
-OpenAPI 3.0.2,
-GCP Cloudendpoint,
-GCP App Engine,
-GCP Coud Storage.
+AWS S3(Amazon Simple Storage Service (Amazon S3) is an object storage service that
+that offers industry-leading scalability, data availability, security, and performance.)
+OpenAPI 3.0.2(An OPENAPI is an publicly available API that provides developers with 
+Programmatic access to proprietary software application or web service)
+
 
 ## Architecture
 
