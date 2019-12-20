@@ -55,10 +55,8 @@ Here is the Usage.
      storage [--storage=SERVICE] list [SOURCE] [--recursive] [--output=OUTPUT]
      storage [--storage=SERVICE] delete SOURCE
      storage [--storage=SERVICE] search  DIRECTORY FILENAME [--recursive] [--output=OUTPUT]
-     storage [--storage=SERVICE] sync SOURCE DESTINATION [--name=NAME] [--async]
-     storage [--storage=SERVICE] sync status [--name=NAME]
      storage config list [--output=OUTPUT]
-     storage copy SOURCE DESTINATION [--recursive]
+     
      
    This command does some useful things.
    
