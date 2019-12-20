@@ -4,10 +4,9 @@ Jagadeesh Kandimalla, fa19-516-171
 
 <https://github.com/cloudmesh-community/fa19-516-171>
 
-The streaming service initial architecure is when a Object gets added to
-S3. An AWS Lambda function will get triggered and will call the Google
-cloud endpoint which inturn will call the APP engine where we write the
-data to Google cloud Storage
+[Contributors](https://github.com/cloudmesh-community/fa19-516-171/graphs/contributors)
+
+The AWSS3 Storage Provider interacts with Cloudmesh Shell and The storage functions of the provider are available through cloudmesh command line. The documentation related the the Storage provider can be been in the below documentation link.
 
 * Documentation: <https://cloudmesh.github.io/cloudmesh-manual/storage/storage.html>
 * API: <https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.storage.provider.awss3.html>
