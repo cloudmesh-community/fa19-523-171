@@ -113,6 +113,10 @@ The code is available in
 
 * <https://github.com/cloudmesh/cloudmesh-storage/tree/master/cloudmesh/storage>
 
+In the Storage Provider directory both  for awss3 and local provider new code have been changed 
+and existing code is modified.
+
+
 The AWS Account creation has been provided in 
 
 * <https://cloudmesh.github.io/cloudmesh-manual/accounts/aws.html>
@@ -120,6 +124,16 @@ The AWS Account creation has been provided in
 The complete documentation and YAML file update we should do is in
 
 * <https://cloudmesh.github.io/cloudmesh-manual/storage/storage.html>
+
+The Pytests related to Awss3 and local are in 
+
+* <https://github.com/cloudmesh/cloudmesh-storage/tree/master/tests>
+
+The Pytests which should be run in the code are
+
+test_storage.py
+test_storage_local.py
+test_storage_size.py
 
 
 
