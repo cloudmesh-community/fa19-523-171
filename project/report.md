@@ -106,12 +106,21 @@ There are some additional functions available for other Storage Providers
  which can be found in the below link.
 
 
-*<https://github.com/cloudmesh/cloudmesh-manual/blob/master/docs-source/source/manual/storage.rst>
+* <https://github.com/cloudmesh/cloudmesh-manual/blob/master/docs-source/source/manual/storage.rst>
 
 
 The code is available in 
 
 * <https://github.com/cloudmesh/cloudmesh-storage/tree/master/cloudmesh/storage>
+
+The AWS Account creation has been provided in 
+
+* <https://cloudmesh.github.io/cloudmesh-manual/accounts/aws.html>
+
+The complete documentation and YAML file update we should do is in
+
+* <https://cloudmesh.github.io/cloudmesh-manual/storage/storage.html>
+
 
 
 :o2: has account cereation and registering in the yaml file been discussed and tested/implemented. lots was done by a previous student
