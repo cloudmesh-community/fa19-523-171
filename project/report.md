@@ -131,8 +131,9 @@ The Pytests related to Awss3 and local are in
 
 The Pytests which should be run in the code are
 
-test_storage.py
+test_storage.py  
 test_storage_local.py
+
 test_storage_size.py
 
 
