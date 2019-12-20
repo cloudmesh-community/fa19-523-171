@@ -49,7 +49,7 @@ Here is the Usage.
 storage
 =======
 
-.. parsed-literal::
+
 
    Usage:
      storage [--storage=SERVICE] create dir DIRECTORY
