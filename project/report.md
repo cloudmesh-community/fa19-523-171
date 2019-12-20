@@ -46,12 +46,8 @@ AWSS3 Storage provider has implemented with the below functions.
 
 Here is the Usage.
 
-storage
-=======
-
-
-
    Usage:
+   
      storage [--storage=SERVICE] create dir DIRECTORY
      storage [--storage=SERVICE] get SOURCE DESTINATION [--recursive]
      storage [--storage=SERVICE] put SOURCE DESTINATION [--recursive]
@@ -62,21 +58,23 @@ storage
      storage [--storage=SERVICE] sync status [--name=NAME]
      storage config list [--output=OUTPUT]
      storage copy SOURCE DESTINATION [--recursive]
-
-
+     
    This command does some useful things.
-
+   
    Arguments:
+   
      SOURCE        SOURCE can be a directory or file
      DESTINATION   DESTINATION can be a directory or file
      DIRECTORY     DIRECTORY refers to a folder on the cloud service
 
 
    Options:
+   
      --storage=SERVICE  specify the cloud service name like aws or
                         azure or box or google
 
    Description:
+   
      commands used to upload, download, list files on different
      cloud storage services.
 
@@ -112,38 +110,6 @@ storage
         If a name is specified, the process can also be monitored
            with the status command by name.
         If the name is not specified all date is monitored.
-
-     sync status
-       The status for the asynchronous sync can be seen with this
-       command
-
-     config list
-       Lists the configures storage services in the yaml file
-
-     storage copy SOURCE DESTINATION
-       Copies files from source storage to destination storage.
-       The syntax of SOURCE and DESTINATION is:
-       SOURCE - awss3:source.txt
-       DESTINATION - azure:target.txt
-
-   Example:
-      set storage=azureblob
-      storage put SOURCE DESTINATION --recursive
-
-      is the same as
-      storage --storage=azureblob put SOURCE DESTINATION --recursive
-
-      storage copy azure:source.txt oracle:target.txt
-
-
-Here is the overview of functions.
-
-1.) Create dir
-
-2.)
-
-
-
 
 
 *<https://github.com/cloudmesh/cloudmesh-manual/blob/master/docs-source/source/manual/storage.rst>
