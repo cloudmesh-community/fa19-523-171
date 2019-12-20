@@ -9,8 +9,13 @@ Jagadeesh Kandimalla, fa19-516-171
 The AWSS3 Storage Provider interacts with Cloudmesh Shell and The storage functions of the provider are available through cloudmesh command line. The documentation related the the Storage provider can be been in the below documentation link.
 
 * Documentation: <https://cloudmesh.github.io/cloudmesh-manual/storage/storage.html>
+
+The functions and the arguments given to the functions are explained in this API documentation.
+
 * API: <https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.storage.provider.awss3.html>
-* Manual: <https://cloudmesh.github.io/cloudmesh-manual/manual/storage/storage.html>
+
+The code should always be referred on the cloudmesh-storage module in the master branch
+
 * Code: <https://github.com/cloudmesh/cloudmesh-storage/tree/master/cloudmesh/storage>
 
 ## Objective
