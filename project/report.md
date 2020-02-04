@@ -6,46 +6,54 @@ Jagadeesh Kandimalla, fa19-516-171
 
 [Contributors](https://github.com/cloudmesh-community/fa19-516-171/graphs/contributors)
 
-The AWSS3 Storage Provider interacts with Cloudmesh Shell and The Storage functions
-of the provider are available through Cloudmesh command line. The documentation
-related the the Storage provider can be been in the below documentation link.
+The AWSS3 Storage Provider interacts with Cloudmesh Shell and The
+Storage functions of the provider are available through Cloudmesh
+command line. The documentation related the the Storage provider can be
+been in the below documentation link.
 
 * Documentation: <https://cloudmesh.github.io/cloudmesh-manual/storage/storage.html>
 
-The functions and the arguments given to the functions are explained in this API documentation.
+The functions and the arguments given to the functions are explained in
+this API documentation.
 
 * API: <https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.storage.provider.awss3.html>
 
-The code should always be referred on the cloudmesh-storage module in the master branch
+The code should always be referred on the cloudmesh-storage module in
+the master branch
 
 * Code: <https://github.com/cloudmesh/cloudmesh-storage/tree/master/cloudmesh/storage>
 
 ## Objective
 
-The Objective was to completely fix the AWSS3 provider and create new functions wherever
-needed(like Bucket exists and Bucket Create) and fix/create Pytests for storage and file sizes.
-Size Pytests are used for benchmarking the functions with different size input files.
+The Objective was to completely fix the AWSS3 provider and create new
+functions wherever needed(like Bucket exists and Bucket Create) and
+fix/create Pytests for storage and file sizes. Size Pytests are used for
+benchmarking the functions with different size input files.
 
 ## Technologies
 
 
-AWS S3(Amazon Simple Storage Service (Amazon S3) is an object storage service that
-that offers industry-leading scalability, data availability, security, and performance.)
+* AWS S3(Amazon Simple Storage Service (Amazon S3) is an object storage
+  service that that offers industry-leading scalability, data
+  availability, security, and performance.)
 
-OpenAPI 3.0.2(An OPENAPI is an publicly available API that provides developers with 
-Programmatic access to proprietary software application or web service)
+* OpenAPI 3.0.2(An OPENAPI is an publicly available API that provides
+  developers with Programmatic access to proprietary software
+  application or web service)
+
+* Python
 
 
 ## Architecture
 
-![architecture](images/architecuture-171.png)
+The Architecture is shwon in @fig:171-arch.
+
+![architecture](images/architecuture-171.png){#fig:171-arch}
 
 
 ## AWSS3 to Local and Local to AWSS3  Storage Provider
 
-AWSS3 Storage provider has implemented with the below functions.
-
-Here is the Usage.
+AWSS3 Storage provider provide the following command
 
    Usage:
    
@@ -56,10 +64,7 @@ Here is the Usage.
      storage [--storage=SERVICE] delete SOURCE
      storage [--storage=SERVICE] search  DIRECTORY FILENAME [--recursive] [--output=OUTPUT]
      storage config list [--output=OUTPUT]
-     
-     
-   This command does some useful things.
-   
+        
    Arguments:
    
      SOURCE        SOURCE can be a directory or file
@@ -102,8 +107,8 @@ Here is the Usage.
        cloud.
 
     
-There are some additional functions available for other Storage Providers
- which can be found in the below link.
+There are some additional functions available for other Storage
+Providers which can be found in the below link.
 
 
 * <https://github.com/cloudmesh/cloudmesh-manual/blob/master/docs-source/source/manual/storage.rst>
@@ -117,7 +122,7 @@ In the Storage Provider directory both  for awss3 and local provider new code ha
 and existing code is modified.
 
 
-The AWS Account creation has been provided in 
+The AWS Account creation is documented in 
 
 * <https://cloudmesh.github.io/cloudmesh-manual/accounts/aws.html>
 
@@ -131,10 +136,11 @@ The Pytests related to Awss3 and local are in
 
 The Pytests which should be run in the code are
 
+```
 test_storage.py  
 test_storage_local.py  
 test_storage_size.py 
-
+```
 
 
 ## Pytest Benchmark Results
