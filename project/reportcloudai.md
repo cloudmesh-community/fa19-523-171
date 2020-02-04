@@ -32,8 +32,8 @@ The  below link is the example of SageMaker processing using SciKit_learm
 
 | Feature                            |  Amazon      | Google     |
 | :----------------------------------| :----------: | -----------: |
-| Notebook environment               | Yes          | Yes        |
-| Train custom learning algorithms   | Yes            Yes        |
-| Deploy custom learning algorithms  | Yes          | No         |
-| Automatic hyperparameter tuning    | Yes          | Only for TensorFlow models      |
-| Distributed training	             | Yes          | Only for TensorFlow models   \| |
+| Notebook environment               | Yes          | Yes|
+| Train custom learning algorithms   | Yes          | Yes|
+| Deploy custom learning algorithms  | Yes          | No|
+| Automatic hyperparameter tuning    | Yes          | Only for TensorFlow models|
+| Distributed training	             | Yes          | Only for TensorFlow models|
