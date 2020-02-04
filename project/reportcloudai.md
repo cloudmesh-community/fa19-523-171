@@ -10,6 +10,8 @@ Update: Feb 3 2020
 
 Analysis of the Cloud ML/AI offerings has been completed between AMAZON and GOOGLE.
 
+# Amazon SageMaker
+
 Amazon offers ML/AI offering through the service called SageMaker.
 
 Amazon SageMaker Processing to analyze data and evaluate models on the Amazon SageMaker machine learning platform. 
@@ -29,6 +31,33 @@ The methods are available in below link
 The  below link is the example of SageMaker processing using SciKit_learm
 
 <https://github.com/awslabs/amazon-sagemaker-examples/blob/master/sagemaker_processing/scikit_learn_data_processing_and_model_evaluation/scikit_learn_data_processing_and_model_evaluation.ipynb>
+
+# Google Cloud AI Hub
+
+Cloud AutoML makes the power of machine learning available to you even if you have limited knowledge of 
+machine learning. You can use AutoML to build on Google's machine learning capabilities to create your own custom 
+machine learning models that are tailored to your business needs, and then integrate those models into your
+applications and web sites.
+
+pip install google-cloud-automl
+
+Service: automl.googleapis.com
+
+We recommend that you call this service using Google-provided client libraries. If your application needs to
+call this service using your own libraries, you should use the following information when making the API requests.
+
+
+Google API 
+
+<https://googleapis.dev/python/automl/latest/gapic/v1beta1/tables.html>
+
+
+
+<https://github.com/googleapis/python-automl>
+
+
+
+
 
 # Comparision between Amazon and Google features.
 
