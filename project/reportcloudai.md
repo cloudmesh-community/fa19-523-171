@@ -30,3 +30,10 @@ The  below link is the example of SageMaker processing using SciKit_learm
 
 <https://github.com/awslabs/amazon-sagemaker-examples/blob/master/sagemaker_processing/scikit_learn_data_processing_and_model_evaluation/scikit_learn_data_processing_and_model_evaluation.ipynb>
 
+
+Feature	                             Amazon           	Google
+Notebook environment	             Yes	            Yes
+Train custom learning algorithms	 Yes	            Yes
+Deploy custom learning algorithms	 Yes	            No
+Automatic hyperparameter tuning	     Yes	            Only for TensorFlow models
+Distributed training	             Yes	            Only for TensorFlow models
