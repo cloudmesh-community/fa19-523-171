@@ -28,7 +28,7 @@ The methods are available in below link
 
 <https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sagemaker.html>
 
-The  below link is the example of SageMaker processing using SciKit_learm
+The  below link is the example of SageMaker processing using SciKit_learn
 
 <https://github.com/awslabs/amazon-sagemaker-examples/blob/master/sagemaker_processing/scikit_learn_data_processing_and_model_evaluation/scikit_learn_data_processing_and_model_evaluation.ipynb>
 
