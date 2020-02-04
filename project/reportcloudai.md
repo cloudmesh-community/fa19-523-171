@@ -30,6 +30,8 @@ The  below link is the example of SageMaker processing using SciKit_learm
 
 <https://github.com/awslabs/amazon-sagemaker-examples/blob/master/sagemaker_processing/scikit_learn_data_processing_and_model_evaluation/scikit_learn_data_processing_and_model_evaluation.ipynb>
 
+# Comparision between Amazon and Google features.
+
 | Feature                            |  Amazon      | Google     |
 | :----------------------------------| :----------: | -----------: |
 | Notebook environment               | Yes          |       Yes    |
