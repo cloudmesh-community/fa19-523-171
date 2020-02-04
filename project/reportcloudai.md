@@ -51,11 +51,9 @@ Google API
 
 <https://googleapis.dev/python/automl/latest/gapic/v1beta1/tables.html>
 
-
+Here is the github link for Python version of CloudAutoml.
 
 <https://github.com/googleapis/python-automl>
-
-
 
 
 
