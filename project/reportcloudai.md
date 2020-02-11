@@ -42,9 +42,9 @@ Amazon SageMaker Ground Truth helps you build highly accurate training datasets 
 
 # Amazon ML Services Other than SageMaker
         
-# Amazon Comprehend .   
+# Amazon Comprehend
 Amazon Comprehend is a natural language processing (NLP) service that uses machine learning to find insights and relationships in text. No machine learning experience required.
-# Amazon Forecast .   
+# Amazon Forecast  
 Amazon Forecast is a fully managed service that uses machine learning to deliver highly accurate forecasts.
 # Amazon Fraud Detector .  
 Amazon Fraud Detector is a fully managed service that makes it easy to identify potentially fraudulent online activities such as online payment fraud and the creation of fake accounts.
