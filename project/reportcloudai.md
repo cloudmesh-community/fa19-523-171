@@ -44,11 +44,16 @@ Amazon SageMaker Ground Truth helps you build highly accurate training datasets 
 
 Amazon SageMaker .  
 Amazon CodeGuru .         
-Amazon Comprehend .   
-Amazon Forecast .   
-Amazon Fraud Detector .  
-Amazon Kendra .  
-Amazon Lex .  
+# Amazon Comprehend .   
+Amazon Comprehend is a natural language processing (NLP) service that uses machine learning to find insights and relationships in text. No machine learning experience required.
+# Amazon Forecast .   
+Amazon Forecast is a fully managed service that uses machine learning to deliver highly accurate forecasts.
+# Amazon Fraud Detector .  
+Amazon Fraud Detector is a fully managed service that makes it easy to identify potentially fraudulent online activities such as online payment fraud and the creation of fake accounts.
+# Amazon Kendra .  
+Amazon Kendra is a highly accurate and easy to use enterprise search service that’s powered by machine learning. Kendra delivers powerful natural language search capabilities to your websites and applications so your end users can more easily find the information they need within the vast amount of content spread across your company
+# Amazon Lex .  
+Amazon Lex is a service for building conversational interfaces into any application using voice and text. Amazon Lex provides the advanced deep learning functionalities of automatic speech recognition (ASR) for converting speech to text, and natural language understanding (NLU) to recognize the intent of the text, to enable you to build applications with highly engaging user experiences and lifelike conversational interactions. 
 Amazon Machine Learning .     
 Amazon Personalize .           
 Amazon Polly .  
