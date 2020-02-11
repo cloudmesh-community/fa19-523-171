@@ -36,6 +36,29 @@ The  below link is the example of SageMaker processing using SciKit_learn
 
 ![AWS SageMaker](images/sagemaker.png)
 
+# Amazon SageMaker Ground Truth
+
+Amazon SageMaker Ground Truth helps you build highly accurate training datasets for machine learning quickly. SageMaker Ground Truth offers easy access to labelers through Amazon Mechanical Turk and provides them with built-in workflows and interfaces for common labeling tasks. You can also use your own labelers or use vendors recommended by Amazon through AWS Marketplace. 
+
+# Amazon ML Services
+
+Amazon SageMaker .  
+Amazon CodeGuru .         
+Amazon Comprehend .   
+Amazon Forecast .   
+Amazon Fraud Detector .  
+Amazon Kendra .  
+Amazon Lex .  
+Amazon Machine Learning .     
+Amazon Personalize .           
+Amazon Polly .  
+Amazon Rekognition .          
+Amazon Textract  .
+Amazon Transcribe  .    
+Amazon Translate  .     
+AWS DeepLens  .       
+AWS DeepRacer  .      
+Amazon Augmented AI .    
 
 
 # Google Cloud AI Hub
