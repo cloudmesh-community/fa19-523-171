@@ -32,6 +32,9 @@ The  below link is the example of SageMaker processing using SciKit_learn
 
 <https://github.com/awslabs/amazon-sagemaker-examples/blob/master/sagemaker_processing/scikit_learn_data_processing_and_model_evaluation/scikit_learn_data_processing_and_model_evaluation.ipynb>
 
+
+[architecture](images/AmazonSageMaker.png)
+
 # Google Cloud AI Hub
 
 Cloud AutoML makes the power of machine learning available to you even if you have limited knowledge of 
