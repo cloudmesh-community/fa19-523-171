@@ -24,7 +24,21 @@ platform or by using the Amazon SageMaker APIs, in the experimentation phase and
 
 SageMaker can be accessed as low-level client through boto3.The SageMaker API has lot 
 of methods which can be used to built a ML algorithm from scratch.
-The methods are available in below link
+The methods are shown in [@label]
+
+:o2: do not use the word below 
+:o2: do not use the word below 
+:o2: do not use the word below 
+:o2: do not use the word below 
+:o2: do not use the word below 
+:o2: do not use the word below 
+:o2: do not use the word below 
+:o2: do not use the word below 
+:o2: do not use the word below 
+:o2: do not use the word below 
+:o2: do not use the word below 
+
+:o2: bibtex
 
 <https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sagemaker.html>
 
@@ -34,7 +48,9 @@ The  below link is the example of SageMaker processing using SciKit_learn
 
 # Amazon SageMaker Services
 
-![AWS SageMaker](images/sagemaker.png)
+hsdldhjsdhajds as shown in [@fig:aws-sagemaker-services]
+
+![AWS SageMaker [@bibtexlabel]](images/sagemaker.png){fig:aws-sagemaker-services}
 
 # Amazon SageMaker Ground Truth
 
@@ -43,10 +59,15 @@ Amazon SageMaker Ground Truth helps you build highly accurate training datasets 
 # Amazon ML Services Other than SageMaker
         
 # Amazon Comprehend
-Amazon Comprehend is a natural language processing (NLP) service that uses machine learning to find insights and relationships in text. No machine learning experience required.
+
+Amazon Comprehend is a natural language processing (NLP) service that uses machine learning to find insights and relationships in text. No machine learning experience required [bibtex].
+
 # Amazon Forecast  
+
 Amazon Forecast is a fully managed service that uses machine learning to deliver highly accurate forecasts.
+
 # Amazon Fraud Detector   
+
 Amazon Fraud Detector is a fully managed service that makes it easy to identify potentially fraudulent online activities such as online payment fraud and the creation of fake accounts.
 # Amazon Kendra 
 Amazon Kendra is a highly accurate and easy to use enterprise search service that’s powered by machine learning. Kendra delivers powerful natural language search capabilities to your websites and applications so your end users can more easily find the information they need within the vast amount of content spread across your company
@@ -98,6 +119,7 @@ Here is the github link for Python version of CloudAutoml.
 
 
 # Comparision between Amazon and Google features.
+
 
 | Feature                            |  Amazon      | Google     |
 | :----------------------------------| :----------: | -----------: |
