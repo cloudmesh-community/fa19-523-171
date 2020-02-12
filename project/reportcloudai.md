@@ -12,7 +12,7 @@ Analysis of the Cloud ML/AI offerings has been completed between AMAZON and GOOG
 
 # Amazon SageMaker
 
-Amazon offers ML/AI offering through the service called SageMaker.
+Amazon offers ML/AI offering through the service called SageMaker [@www-google].
 
 Amazon SageMaker Processing to analyze data and evaluate models on the Amazon SageMaker machine learning platform. 
 Amazon SageMaker is a fully managed service that covers the entire machine learning workflow, from preparing your data,
