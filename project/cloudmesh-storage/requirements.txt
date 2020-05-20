@@ -19,7 +19,7 @@ boxsdk==2.5.0
 google-api-python-client==1.7.10
 google-auth-httplib2==0.0.3
 google-auth==1.6.3
-httplib2==0.13.1
+httplib2==0.18.0
 oauth2client==4.1.3
 python-magic==0.4.15
 
