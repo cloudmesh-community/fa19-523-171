@@ -1,8 +1,6 @@
 # Cloudmesh Storage Provider for AwsS3
 
-Jagadeesh Kandimalla, fa19-516-171 
-
-<https://github.com/cloudmesh-community/fa19-516-171>
+Jagadeesh Kandimalla, [fa19-516-171](https://github.com/cloudmesh-community/fa19-516-171)
 
 [Contributors](https://github.com/cloudmesh-community/fa19-516-171/graphs/contributors)
 
@@ -11,17 +9,17 @@ Storage functions of the provider are available through Cloudmesh
 command line. The documentation related the the Storage provider can be
 been in the below documentation link.
 
-* Documentation: <https://cloudmesh.github.io/cloudmesh-manual/storage/storage.html>
+* [Documentation](https://cloudmesh.github.io/cloudmesh-manual/storage/storage.html)
 
 The functions and the arguments given to the functions are explained in
 this API documentation.
 
-* API: <https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.storage.provider.awss3.html>
+* [API](https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.storage.provider.awss3.html)
 
 The code should always be referred on the cloudmesh-storage module in
 the master branch
 
-* Code: <https://github.com/cloudmesh/cloudmesh-storage/tree/master/cloudmesh/storage>
+* [Code](https://github.com/cloudmesh/cloudmesh-storage/tree/master/cloudmesh/storage)
 
 ## Objective
 
